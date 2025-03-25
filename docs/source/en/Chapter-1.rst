@@ -4,32 +4,32 @@ Basic Information
 1.1 Introduction
 ----------------
 
-Berry is an ultra-lightweight dynamic type embedded scripting language.
+Berry is an ultra-lightweight dynamically-typed embedded scripting language.
 The language mainly supports procedural programming, as well as
 object-oriented programming and functional programming. An important
 design goal of Berry is to be able to run on embedded devices with very
-small memory, so the language is very streamlined. Nevertheless, Berry
+little memory, so the language is very streamlined. Nevertheless, Berry
 is still a feature-rich scripting language.
 
-1.2 Start using
----------------
+1.2 Start using it
+------------------
 
-Get Interpreter
-~~~~~~~~~~~~~~~
+Get the Interpreter
+~~~~~~~~~~~~~~~~~~~
 
 Readers can go to the project’s GitHub page
 https://github.com/berry-lang/berry to get the source code of the Berry
 interpreter. Readers need to compile the Berry interpreter by
 themselves. The specific compilation method can be found in the
 README.md document in the root directory of the source code, which can
-also be viewed on the GitHub page of the project.
+also be viewed on the project's GitHub page.
 
 First, you must install software such as GCC, git, and make. If you do
 not use version control, you can download the source code directly on
 GitHub without installing git. Readers can use search engines to
 retrieve information about these software. Readers using Linux and macOS
-systems should also install the GNU Readline library[1]. Use ``git``
-command [2] Clone the interpreter source code from the remote warehouse
+systems should also install the GNU Readline library[1]. Use the ``git``
+command [2] Clone the interpreter source code from the remote repository
 to the local:
 
 .. code:: bash
@@ -45,10 +45,10 @@ interpreter:
    make
 
 Now you should be able to find the executable file of the interpreter in
-the *berry* directory (in Windows systems, the file name of the
-interpreter program is “*berry.exe*”, while in Linux and macOS systems
-the file name is “*berry*”), you can run the executable file directly
-[3] To start the interpreter. In Linux or macOS, you can use the command
+the `berry` directory (on Windows systems, the file name of the
+interpreter program is “`berry.exe`”, while on Linux and macOS systems
+the file name is “`berry`”); you can run the executable file directly
+[3] to start the interpreter. In Linux or macOS, you can use the command
 ``sudo make install`` to install the interpreter, and then you can start
 the interpreter with the ``berry`` command in the terminal.
 
